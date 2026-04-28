@@ -1,0 +1,67 @@
+# ============================================================
+# .gitignore — Extractor de Términos y Definiciones
+# ============================================================
+
+
+# --- Archivos de configuración sensible ---
+config.json
+
+
+# --- Carpetas excluidas del repositorio ---
+ignore/
+docs/
+
+
+# --- Notas y análisis de trabajo interno ---
+analisis_mejoras_extractor.md
+
+
+# --- Entorno virtual de Python ---
+.venv/
+venv/
+env/
+ENV/
+
+
+# --- Caché de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+
+# --- Archivos de salida generados (resultados de extracción) ---
+*.xlsx
+*.xls
+*.csv
+
+
+# --- Archivos temporales de LibreOffice / Excel ---
+.~lock.*
+~$*.xlsx
+
+
+# --- Datos del corpus (pueden contener información sensible) ---
+data/
+
+
+# --- Carpetas de versiones antiguas y pruebas ---
+primeras_versiones/
+pruebas_primeras_versiones/
+Pruebas_Term_Extractor/
+ETS_Pruebas/
+Medicina_Pruebas/
+Pruebas/
+
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# --- IDEs y editores ---
+.vscode/
+.idea/
+*.swp
+*.swo

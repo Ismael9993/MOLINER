@@ -1,0 +1,25 @@
+# ============================================================
+# Extractor de Términos y Definiciones — Dependencias
+# ============================================================
+# Instalación:
+#   pip install -r requirements.txt
+#
+# Modelo de lenguaje de spaCy (ejecutar una sola vez):
+#   python -m spacy download es_core_news_lg
+# ============================================================
+
+# --- Núcleo de extracción NLP ---
+spacy>=3.8.11
+
+# --- Procesamiento y exportación de datos ---
+pandas>=3.0.1
+openpyxl>=3.1.5          # Motor para leer/escribir archivos .xlsx
+
+# --- Lectura de PDFs (solo Term_Extractor_Local_Docs.py) ---
+# Descomenta la siguiente línea si vas a procesar documentos PDF:
+# pdfplumber>=0.11
+
+# --- Cliente GECO3 (solo Term_Extractor_Geco3.py) ---
+# geco3_client es un paquete local incluido en el proyecto (carpeta geco3_client/).
+# Requiere internamente:
+requests>=2.31.0
