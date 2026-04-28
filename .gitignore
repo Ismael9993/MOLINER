@@ -31,9 +31,11 @@ __pycache__/
 
 
 # --- Archivos de salida generados (resultados de extracción) ---
+# *.xlsx ignora todos los .xlsx; !/*.xlsx re-incluye los de la raíz del proyecto.
 *.xlsx
 *.xls
 *.csv
+!/*.xlsx
 
 
 # --- Archivos temporales de LibreOffice / Excel ---
@@ -65,3 +67,4 @@ desktop.ini
 .idea/
 *.swp
 *.swo
+
