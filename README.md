@@ -46,7 +46,7 @@ Extractor de terminos_definiciones/
 
 ```bash
 # 1. Clonar el repositorio
-git clone <url-del-repositorio>
+git clone https://github.com/Ismael9993/MOLINER.git
 cd "Extractor de terminos_definiciones"
 
 # 2. Crear y activar el entorno virtual
